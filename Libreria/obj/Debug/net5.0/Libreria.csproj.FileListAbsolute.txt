@@ -1,0 +1,24 @@
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\Libreria.deps.json
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\Libreria.dll
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\ref\Libreria.dll
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\Libreria.pdb
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.csproj.AssemblyReference.cache
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.AssemblyInfo.cs
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.dll
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\ref\Libreria.dll
+C:\Users\1daw3\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.pdb
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\Libreria.deps.json
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\Libreria.dll
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\ref\Libreria.dll
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\bin\Debug\net5.0\Libreria.pdb
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.csproj.AssemblyReference.cache
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.AssemblyInfoInputs.cache
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.AssemblyInfo.cs
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.csproj.CoreCompileInputs.cache
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.dll
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\ref\Libreria.dll
+G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Libreria\obj\Debug\net5.0\Libreria.pdb
