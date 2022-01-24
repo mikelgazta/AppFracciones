@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj": {}
+    "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj": {
+    "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj",
+        "projectUniqueName": "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj",
         "projectName": "Libreria",
-        "projectPath": "C:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj",
+        "projectPath": "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj",
         "packagesPath": "C:\\Users\\1daw3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\obj\\",
+        "outputPath": "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1daw3\\AppData\\Roaming\\NuGet\\NuGet.Config"

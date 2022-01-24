@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Libreria/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Libreria.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Libreria.dll": {}
+        }
       }
     }
   },
@@ -5906,10 +5916,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Libreria/1.0.0": {
+      "type": "project",
+      "path": "../../Libreria/Libreria.csproj",
+      "msbuildProject": "../../Libreria/Libreria.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Libreria >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
@@ -5917,19 +5933,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mikel\\.nuget\\packages\\": {}
+    "C:\\Users\\1daw3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Otros ordenadores\\Mi PC (1)\\dev\\net\\AppFracciones\\Test\\Test\\Test.csproj",
+      "projectUniqueName": "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Test\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "G:\\Otros ordenadores\\Mi PC (1)\\dev\\net\\AppFracciones\\Test\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\Mikel\\.nuget\\packages\\",
-      "outputPath": "G:\\Otros ordenadores\\Mi PC (1)\\dev\\net\\AppFracciones\\Test\\Test\\obj\\",
+      "projectPath": "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Test\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\1daw3\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Test\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mikel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\1daw3\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5940,7 +5956,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj": {
+              "projectPath": "c:\\Users\\1daw3\\dev\\net\\AppFracciones\\Libreria\\Libreria.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5989,7 +6009,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

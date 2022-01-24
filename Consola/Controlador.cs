@@ -8,12 +8,10 @@ namespace Consola
     class Controlador
     {
         private Vista vista;
-        private Sistema sistema;
         private Dictionary<string, Action> casosDeUso;
-        public Controlador(Vista vista, Sistema sistema)
+        public Controlador(Vista vista)
         {
             this.vista = vista;
-            this.sistema = sistema;
             casosDeUso = new Dictionary<string, Action>(){
                 { "Sumar Fracciones", sumarFracciones},
                 { "Multiplicar Fracciones", multiplicarFracciones},
@@ -48,9 +46,11 @@ namespace Consola
         {  try{
             var n1 = vista.TryObtenerDatoDeTipo<int>("dame el n1");
             var d1 = vista.TryObtenerDatoDeTipo<int>("dame el d1");
+            var f1= new Fraccion (n1,d1); 
             var n2 = vista.TryObtenerDatoDeTipo<int>("dame el n2");
             var d2 = vista.TryObtenerDatoDeTipo<int>("dame el d2");
-            var suma = sistema.sumarFracciones(n1,n2,d1,d2);
+            var f2=new Fraccion (n2,d2);
+            var suma = f1+f2;
             vista.Mostrar(suma);
         }catch(Exception e){
             Console.WriteLine(e.Message);
@@ -61,20 +61,23 @@ namespace Consola
         {
             var n1 = vista.TryObtenerDatoDeTipo<int>("dame el n1");
             var d1 = vista.TryObtenerDatoDeTipo<int>("dame el d1");
+            var f1=new Fraccion(n1,d1);
             var n2 = vista.TryObtenerDatoDeTipo<int>("dame el n2");
             var d2 = vista.TryObtenerDatoDeTipo<int>("dame el d2");
-            string multi= sistema.multiplicarFracciones(n1,n2,d1,d2);
+            var f2=new Fraccion(n2,d2);
+            var multi= f1*f2;
             vista.Mostrar(multi);
         }
         public void restarFracciones()
         {
             var n1 = vista.TryObtenerDatoDeTipo<int>("dame el n1");
             var d1 = vista.TryObtenerDatoDeTipo<int>("dame el d1");
+            var f1=new Fraccion (n1,d1); 
             var n2 = vista.TryObtenerDatoDeTipo<int>("dame el n2");
             var d2 = vista.TryObtenerDatoDeTipo<int>("dame el d2");
-            var resto= sistema.restarFracciones(n1,n2,d1,d2);
+            var f2= new Fraccion(n2,d2);
+            var resto= f1-f2;
             vista.Mostrar(resto);
         }
-        
     }
 }
