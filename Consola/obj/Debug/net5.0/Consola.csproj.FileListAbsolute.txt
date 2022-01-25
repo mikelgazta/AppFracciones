@@ -35,3 +35,4 @@ G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Consola\bin\Debug\net5.0\Librer
 G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Consola\bin\Debug\net5.0\Libreria.pdb
 G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Consola\obj\Debug\net5.0\Consola.csproj.CopyComplete
 G:\Otros ordenadores\Mi PC\dev\net\AppFracciones\Consola\obj\Debug\net5.0\Consola.genruntimeconfig.cache
+C:\Users\1daw3\dev\net\AppFracciones\Consola\obj\Debug\net5.0\Consola.csproj.CopyComplete
